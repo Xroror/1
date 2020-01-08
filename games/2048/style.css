@@ -1,0 +1,27 @@
+tr:nth-child(even){
+	background-color: #ffffe6;
+}
+
+th{
+	background-color: #7700b3;
+	color: white;
+	font-size: 18px;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border-style: outset;
+	border: 2px solid black;
+	}
+
+body{
+	
+}
+
+table{
+
+	background-color: #e6ffff;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+}
