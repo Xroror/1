@@ -1,0 +1,67 @@
+body {
+	margin: 0px;
+	background-color: #343148;
+	color: white;
+}
+
+td{
+	color: white;
+}
+
+.selectedrow {
+	color: red;
+}
+
+.unselectedrow{
+	color: black;
+}
+
+#recievedchat{
+	width: 250px;
+	height: 260px;
+	overflow-y: scroll;
+	
+}
+
+#chat{
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 1px;
+	width: 250px;
+	height: 300px;
+	display: none;
+	position: absolute;
+	float: right;
+	bottom: 8px;
+}
+
+#friendslist{
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+
+#selectbutton{
+	position: relative;
+}
+
+#chatform{
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+}
+
+#tablediv{
+	top: 40px;
+	margin: 0;
+	position: relative;
+}
+
+#aucid{
+	display: none;
+}
+
+.show{
+	display: block;
+}
