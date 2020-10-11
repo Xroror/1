@@ -1,13 +1,203 @@
 .topbar{
 	display: block;
-	background-color: #ff8080;
+	background-color: #7e4a35;
 	width: 100%;
 	height: 30px;
 	z-index: 2;
 	position: fixed;
 	top: 0;
-	border: 2px;
+	border: 1px solid silver;
 	margin-bottom: 10px;
+}
+
+form{
+	margin:0px;
+}
+
+.chatexp {
+	display: none;
+}
+
+.chatdiv{
+	background-color: #847362;
+	position:static;
+}
+
+.typing {
+	position: relative;
+	width: 100%
+	
+}
+
+.chathide {
+	display: none;
+	border-top: 2px solid #4f3222;
+	border-bottom: 2px solid #4f3222;
+}
+
+.upimg{
+	width: 60px;
+	height: 60px;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	background-color: #4f3222;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #24160f;
+}
+
+input[type=submit]{
+	font-size: 14px;
+	border-radius: 5px 5px 0px;
+	color: white;
+	border:1px solid #a79e84;
+	display: inline-block;
+	background-color: #7a3b2e;
+	padding:2px 4px;
+	margin:6px 4px;
+	float: right;
+}
+
+.messagebox{
+	color: black;
+	background-color: #efe9dc;
+	border: 2px solid #a79e84;
+	width: 185px;
+	padding:2px 5px;
+	margin:5px;
+}
+
+#chatmain {
+	border: 3px solid #4f3222;
+	display:none;
+	position: absolute;
+	right: 10px;
+	top:35px;
+	background-color: #838060;
+	height:auto;
+	width: 250px;
+}
+
+.chattext {
+	border-bottom: 2px solid #4f3222;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	position: relative;
+	background-color: #ac9986;
+	width: 99%;
+	height: 200px;
+	min-height: 200px;
+}
+
+.openchat{
+	font-size: 18px;
+	display: block;
+	background-color: #847362;
+	user-select: none;
+	cursor: pointer;
+}
+
+.closechat{
+	cursor: pointer;
+	float: right;
+	user-select: none;
+}
+
+.emotes{
+	width: 30px;
+	height: 30px;
+}
+
+.recmes{
+	clear: both;
+	word-warp:break-word;
+	position: relative;
+	float:right;
+	right:5px;
+	display:inline-block;
+	color:white;
+	max-width: 200px;
+	word-break:break-all;
+}
+
+.mymes{
+	clear:both;
+	word-break:break-all;
+	word-warp:break-word;
+	position: relative;
+	float:left;
+	left:5px;
+	max-width: 200px;
+}
+
+
+.chatdivbut{
+	position: absolute;
+	top:0px;
+	right: 250px;
+}
+
+.maildiv{
+	position: absolute;
+	top: -2px;
+	right: 210px;
+}
+
+
+.mailhead{
+	margin: 0px;
+}
+
+#delmail{
+ font-size: 26px;
+}
+
+.mailcontent{
+	min-width: 300px;
+	left: 32px;
+	top: 32px;
+	padding: 5px;
+	display: none;
+	position: relative;
+	z-index: 1;
+	float: left;
+	background-color: #8b86ac;
+	border: 1px solid silver;
+}
+
+.maildate{
+	float: right;
+	border-bottom: 1px solid silver;
+}
+
+
+#mailbut:hover{
+	
+	
+}
+
+#mailbut{
+	
+}
+
+a{
+	color: #9E1030;
+	text-decoration: none;
+	font-size: 18px;
+	
+}
+
+a:visited{
+	
+}
+
+a:hover{
+	transition: 0.3s;
+	text-decoration: underline;
+	font-size: 22px;
+	padding-right:5px;
 }
 
 .logINPUT{
@@ -31,8 +221,8 @@
 	color: black;
 	padding: 5px 5px;
 	display: none;
-	min-width: 100px;
-	z-index: 1;
+	min-width: 130px;
+	z-index: 9999;
 }
 
 #NavLinksDrop:hover #NavLinksDrop-content{
@@ -49,12 +239,12 @@
 	height:25px;
 	text-align: center;
 	color: white;
-	background-color:#ff6600;
+	background-color:#cab577;
 	font-size: 16px;
 }
 
 .accbut{
-	background-color: #ff6600;
+	background-color: #cab577;
 	border-radius: 4px;
 	border: 1px;
 	border-color: red;
@@ -66,13 +256,7 @@
 	font-size: 16px;
 }
 
-.mailbutton{
-	position: relative;
-	right: 10px;
-	
-	background-image: url(/img/mail.png);
-	background-size: 29px, 29px;
-}
+
 
 .dropdown-loggedin{
 	display: none;
@@ -112,6 +296,6 @@
 
 .show{
 	
-	display: block;
+	display: block !important;
 }
 

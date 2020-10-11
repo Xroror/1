@@ -1,0 +1,9 @@
+.hidedetails{
+	display: none;
+	float: right;
+}
+
+.showdetails{
+	display:inline-block;
+	float:right;
+}

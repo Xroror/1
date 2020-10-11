@@ -1,0 +1,80 @@
+#chat1 {
+	
+}
+
+.chatexp {
+	display: none;
+}
+
+.chatdiv{
+	position:static;
+}
+
+.typing {
+	position: relative;
+	width: 100%
+	
+}
+
+.chathide {
+	display: none;
+}
+
+#chatmain {
+	position: absolute;
+	right: 10px;
+	top:35px;
+	background-color: lightgray;
+	height:90%;
+	width: 250px;
+	overflow: none;
+}
+
+.chattext {
+
+	overflow-x:hidden;
+	overflow-y:scroll;
+	position: relative;
+	background-color: gray;
+	width: 99%;
+	height: 200px;
+	min-height: 200px;
+}
+
+.openchat{
+	user-select: none;
+	cursor: pointer;
+}
+
+.closechat{
+	cursor: pointer;
+	float: right;
+	user-select: none;
+}
+
+.emotes{
+	width: 30px;
+	height: 30px;
+}
+
+.recmes{
+	clear: both;
+	word-warp:break-word;
+	position: relative;
+	float:right;
+	right:5px;
+	display:inline-block;
+	color:white;
+	max-width: 200px;
+	word-break:break-all;
+}
+
+.mymes{
+	clear:both;
+	word-break:break-all;
+	word-warp:break-word;
+	position: relative;
+	float:left;
+	left:5px;
+	max-width: 200px;
+}

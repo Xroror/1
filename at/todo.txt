@@ -1,0 +1,5 @@
+level system:
+
+SELECT * FROM at.level_list WHERE exp BETWEEN 0 and hero_xp ORDER BY exp DESC LIMIT 1 - level of a hero
+SELECT * FROM at.level_list WHERE exp BETWEEN hero_xp and 999999999 ORDER BY exp ASC LIMIT 1 - next level of hero
+

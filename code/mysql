@@ -1,0 +1,21 @@
+<?php
+
+class mysql {
+	private $sql;
+	private $conn;
+	private $host_addr;
+	private $host_user;
+	private $host_pass;
+	private $host_dbname;
+
+	function set_dbname($db){
+		$this->host_dbname = $db;
+	}
+
+	function __construct($db){
+		$this->
+	}
+
+}
+
+?>

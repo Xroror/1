@@ -1,0 +1,123 @@
+	body{
+		background-color: #ffffe6;
+	}
+	
+	#LDdiv{
+		position: absolute;
+		left: 300px;
+		
+	}
+	
+	#gameDiv{
+	
+		position:absolute;
+		float: left;
+	}
+	
+	#loginDisplay{
+		right: 100px;
+		position: absolute;
+		float: right;
+	}
+	
+	#scoreplace{
+		background-color: #99ffd6;
+		font-size: 16px;
+		border-radius: 10px;
+		min-height: 20px;
+		text-align: center;
+		min-width: 50px;
+		border: 1px solid orange;
+		position: absolute;
+		right:20px;
+	}
+	
+	th, td{
+		border: 1px solid black;
+	}
+	
+	td{
+		border-radius: 20px;
+		text-align: center;
+		height: 60px;
+		width: 60px;
+		font-size: 50px;
+	}
+	
+	.td0{
+		transition: background 1s;
+		background-color: #f2f2f2;
+	}
+	
+	.td2{
+		transition: background 1s;
+		background-color: #ffff99;
+
+	}
+	
+	.td4{
+		transition: background 1s;
+		background-color: #b3ffff;
+
+	}
+	
+	.td8{
+		transition: background 1s;
+		background-color: #99e6ff;
+
+	}
+	
+	.td16{
+		transition: background 2s;
+		background-color: #00ff99;
+		
+	}
+	
+	.td32{
+		transition: background 2s;
+		background-color: #00cc00;
+		
+	}
+	
+	.td64{
+		transition: background 2s;
+		background-color: #77b300;
+		
+	}
+	
+	.td128{
+		transition: background 2s;
+		background-color: #ffbf00;
+		font-size: 40px;
+	}
+	
+	.td256{
+		transition: background 2s;
+		background-color: #ff704d;
+		font-size: 40px;
+	}
+	
+	.td512{
+		transition: background 2s;
+		background-color: #ff0000;
+		font-size: 40px;
+	}
+	
+	.td1024{
+		transition: background 2s;
+		background-color: #ff3385;
+		font-size: 30px;
+	}
+	
+	.td2048{
+		transition: background 2s;
+		background-color: #ffff00;
+			font-size: 30px;
+	}
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,70 @@
+body{
+	margin: 0px;
+	background-color: #343148;
+	color: white;
+}
+
+
+.itemlist{
+	color: #E0FFFF;
+}
+
+.cost_c{
+	color: #ffbf00;
+}
+
+.cost_s{
+	color: #a3a3c2;
+}
+
+.cost_g{
+	color: #e6e600;
+}
+
+#tooltip{
+	background-color: black;
+	position: absolute;
+}
+
+#tptable{
+	border: 5px white;
+}
+
+#searchdiv{
+	position:absolute;
+	top: 40px;
+}
+
+#results{
+	position: absolute;
+	top: 75px;
+}
+
+.interestinfo{
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+	
+}
+
+.interestname{
+	text-align: left;
+	display: block;
+	color: #F0E68C;
+
+}
+
+p{
+	line-height: 2px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#shoppinglist{
+	position: absolute;
+	right: 10px;
+	top: 40px;
+	min-width:150px;
+	text-align: right;
+}
