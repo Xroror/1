@@ -21,7 +21,7 @@ timeCon = time.time() - myresult[0][2]
 
 
 def startinput():
-	r = requests.get('http://api.tradeskillmaster.com/v1/item/EU/sylvanas?format=json&apiKey=UNqSp-NI5heP5ZXmhB9a6csoa371QysO')
+	r = requests.get('http://api.tradeskillmaster.com/v1/item/EU/sylvanas?format=json&apiKey=APIKEY')
 	str = r.json()
 	x = datetime.datetime.now()
 	tbname = x.strftime("%X-%x")
