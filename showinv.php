@@ -106,7 +106,6 @@ function newauction(){
 
 <?php
 $cellid = 0;
-echo "Logged in as: " .$_SESSION['login_nick'];
 echo "<div class = 'invtable'> <table ondrop = 'drop(event)' ondragover = 'allowDrop(event)'>";
 for ($x = 1;$x < 15;$x++){
 	echo "<tr>";

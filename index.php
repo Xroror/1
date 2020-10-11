@@ -10,9 +10,10 @@ session_start();
 
 </head>
 <body>
-<?php include 'DBACCESS.php';
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/code/topbar/topbar_html.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/DBACCESS.php';
 
-$conn = new mysqli($servername, $username, $password, $dbname); # establish a connection
+$conn = new mysqli($servername, $username, $password, $dbname); 
 
 if ($conn->connect_error){ # check if connection failed
 	die("Well shiet... " . $conn->mysqli->connection_error);
@@ -51,7 +52,7 @@ if($result->num_rows >  0){
 </div>
 </div>
 
-<?php include 'code/topbar/topbar_html.php' ?>
+
 
 <div id = "chat">
 	<div id = "recievedchat">
@@ -62,9 +63,6 @@ if($result->num_rows >  0){
 		<input id = "sendbut" type = "submit" value = "send">
 	</form>
 </div>
-
-
-
 
 
 </body>

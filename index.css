@@ -4,16 +4,23 @@ body {
 	color: white;
 }
 
+.wrapper{
+	z-index:1;
+	position:absolute;;
+	top:30px;
+}
+
 td{
-	color: white;
+	
 }
 
 .selectedrow {
 	color: red;
+
 }
 
 .unselectedrow{
-	color: black;
+	
 }
 
 #recievedchat{

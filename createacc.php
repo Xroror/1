@@ -1,4 +1,4 @@
-<?php include 'DBACCESS.php';
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/DBACCESS.php';
 if($_POST['username']){
 	$user = $_POST['username'];
 	$pass = $_POST['passwd'];
@@ -17,6 +17,7 @@ if($_POST['username']){
 	VALUES ('$accid', 1 , 1)";
 	$conn->query($sql);
 	echo "complete";
+	
 	
 }
 
